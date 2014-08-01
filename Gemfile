@@ -36,6 +36,14 @@ gem 'bootstrap-sass'
 gem 'devise'
 
 
+
+#gem 'paperclip', '~> 3.0'
+
+
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
+
+
 group :production do
    #  gem 'pg'
      gem 'rails_12factor'
