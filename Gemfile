@@ -37,12 +37,16 @@ gem 'devise'
 
 
 
+
+
 #gem 'paperclip', '~> 3.0'
 
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
 
+
+gem 'aws-sdk', '~> 1.20.0'
 
 group :production do
    #  gem 'pg'
