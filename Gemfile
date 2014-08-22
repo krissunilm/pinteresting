@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'bootstrap-sass'
+# added per https://github.com/twbs/bootstrap-sass#a-ruby-on-rails
+gem 'autoprefixer-rails'
+
 
 gem 'devise'
 
